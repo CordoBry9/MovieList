@@ -1,0 +1,126 @@
+:root{
+
+    --bac-dark-color: #212121;
+    --bac-light-color: #ebebeb;
+}
+
+
+/* #region Sticky Footer*/
+
+html,body{
+    height: 100%;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
+footer{
+
+    flex-shrink: 0;
+}
+
+/* #endregion Sticky Footer */
+
+/* #region navbar, footer */
+nav, footer {
+
+    background-color: var(--bac-theme-900);
+    color: var(--bac-theme-100) !important; 
+
+}
+
+.nav-link {
+
+    color : var(--bac-theme-100) !important;
+
+}
+
+.nav-link.active {
+
+    color: var(--bac-theme-100) !important;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: var(--bac-theme-300) !important;
+
+}
+
+.navbar-brand {
+    color: var(--bac-theme-100)!important;
+    font-weight: 500;
+}
+
+.navbar-brand:hover {
+
+    color: var(--bac-theme-300)!important;
+}
+
+footer .bi {
+
+    color: var(--bac-theme-200);
+    font-size: 1.5rem;
+    padding-left: .5rem;
+    transition: color 0.25;
+}
+
+footer .bi:hover {
+
+    color: var(--bac-theme-core);
+}
+
+
+/* #endregion navbar, footer */
+
+
+/* #region button */
+.btn-primary {
+    --bs-btn-bg: var(--bac-theme-600);
+    --bs-btn-border-color: var(--bac-theme-600);
+    --bs-btn-hover-bg: var(--bac-theme-700);
+    --bs-btn-hover-border-color: var(--bac-theme-700);
+    --bs-btn-active-bg: var(--bac-theme-800);
+    --bs-btn-active-border-color: var(--bac-theme-800);
+}
+.btn-outline-primary {
+    --bs-btn-color: var(--bac-theme-600);
+    --bs-btn-border-color: var(--bac-theme-600);
+    --bs-btn-hover-bg: var(--bac-theme-700);
+    --bs-btn-hover-border-color: var(--bac-theme-700);
+    --bs-btn-active-bg: var(--bac-theme-800);
+    --bs-btn-active-border-color: var(--bac-theme-800);
+}
+/* #endregion button */
+
+.app-logo {
+
+    max-width: 450px;
+}
+
+.checklist {
+
+    list-style-type: none;
+
+}
+
+.checklist .bi {
+
+    color: var(--bac-theme-core);
+}
+
+.devicons {
+
+    font-size: 3.5rem;
+}
+
+#message {
+
+    
+}

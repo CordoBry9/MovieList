@@ -1,0 +1,345 @@
+:root {
+    /* default theme will be blue */
+    --bac-theme-core: var(--bac-blue-core);
+    --bac-theme-100: var(--bac-blue-100);
+    --bac-theme-150: var(--bac-blue-150);
+    --bac-theme-200: var(--bac-blue-200);
+    --bac-theme-300: var(--bac-blue-300);
+    --bac-theme-400: var(--bac-blue-400);
+    --bac-theme-500: var(--bac-blue-500);
+    --bac-theme-600: var(--bac-blue-600);
+    --bac-theme-700: var(--bac-blue-700);
+    --bac-theme-800: var(--bac-blue-800);
+    --bac-theme-850: var(--bac-blue-850);
+    --bac-theme-900: var(--bac-blue-900);
+
+    /* #region blue */
+    --bac-blue-core: #0d6efd;
+    --bac-blue-100: hsl(216, 50%, 91%);
+    --bac-blue-150: hsl(216, 50%, 86%);
+    --bac-blue-200: hsl(216, 50%, 81%);
+    --bac-blue-300: hsl(216, 50%, 71%);
+    --bac-blue-400: hsl(216, 50%, 61%);
+    --bac-blue-500: hsl(216, 50%, 51%);
+    --bac-blue-600: hsl(216, 50%, 41%);
+    --bac-blue-700: hsl(216, 50%, 31%);
+    --bac-blue-800: hsl(216, 50%, 21%);
+    --bac-blue-850: hsl(216, 50%, 16%);
+    --bac-blue-900: hsl(216, 50%, 11%);
+    /* #endregion blue */
+
+    /* #region indigo */
+    --bac-indigo-core: #6610f2;
+    --bac-indigo-100: hsl(263, 88%, 90%);
+    --bac-indigo-150: hsl(263, 88%, 85%);
+    --bac-indigo-200: hsl(263, 88%, 80%);
+    --bac-indigo-300: hsl(263, 88%, 70%);
+    --bac-indigo-400: hsl(263, 88%, 60%);
+    --bac-indigo-500: hsl(263, 88%, 50%);
+    --bac-indigo-600: hsl(263, 88%, 40%);
+    --bac-indigo-700: hsl(263, 88%, 30%);
+    --bac-indigo-800: hsl(263, 88%, 20%);
+    --bac-indigo-850: hsl(263, 88%, 15%);
+    --bac-indigo-900: hsl(263, 88%, 10%);
+    /* #endregion indigo */
+
+    /* #region purple */
+    --bac-purple-core: #6f42c1;
+    --bac-purple-100: hsl(261, 52%, 90%);
+    --bac-purple-150: hsl(261, 52%, 85%);
+    --bac-purple-200: hsl(261, 52%, 80%);
+    --bac-purple-300: hsl(261, 52%, 70%);
+    --bac-purple-400: hsl(261, 52%, 60%);
+    --bac-purple-500: hsl(261, 52%, 50%);
+    --bac-purple-600: hsl(261, 52%, 40%);
+    --bac-purple-700: hsl(261, 52%, 30%);
+    --bac-purple-800: hsl(261, 52%, 20%);
+    --bac-purple-850: hsl(261, 52%, 15%);
+    --bac-purple-900: hsl(261, 52%, 10%);
+    /* #endregion purple */
+
+    /* #region pink */
+    --bac-pink-core: #d63384;
+    --bac-pink-100: hsl(331, 47%, 90%);
+    --bac-pink-150: hsl(331, 47%, 85%);
+    --bac-pink-200: hsl(331, 47%, 80%);
+    --bac-pink-300: hsl(331, 47%, 70%);
+    --bac-pink-400: hsl(331, 47%, 60%);
+    --bac-pink-500: hsl(331, 47%, 50%);
+    --bac-pink-600: hsl(331, 47%, 40%);
+    --bac-pink-700: hsl(331, 47%, 30%);
+    --bac-pink-800: hsl(331, 47%, 20%);
+    --bac-pink-850: hsl(331, 47%, 15%);
+    --bac-pink-900: hsl(331, 47%, 10%);
+    /* #endregion pink */
+
+    /* #region red */
+    --bac-red-core: #dc3545;
+    --bac-red-100: hsl(355, 70%, 91%);
+    --bac-red-150: hsl(355, 70%, 86%);
+    --bac-red-200: hsl(355, 70%, 81%);
+    --bac-red-300: hsl(355, 70%, 71%);
+    --bac-red-400: hsl(355, 70%, 61%);
+    --bac-red-500: hsl(355, 70%, 51%);
+    --bac-red-600: hsl(355, 70%, 41%);
+    --bac-red-700: hsl(355, 70%, 31%);
+    --bac-red-800: hsl(355, 70%, 21%);
+    --bac-red-850: hsl(355, 70%, 16%);
+    --bac-red-900: hsl(355, 70%, 11%);
+    /* #endregion red */
+
+    /* #region orange */
+    --bac-orange-core: #fd7e14;
+    --bac-orange-100: hsl(19, 50%, 91%);
+    --bac-orange-150: hsl(19, 50%, 86%);
+    --bac-orange-200: hsl(19, 50%, 81%);
+    --bac-orange-300: hsl(19, 50%, 71%);
+    --bac-orange-400: hsl(19, 50%, 61%);
+    --bac-orange-500: hsl(19, 50%, 51%);
+    --bac-orange-600: hsl(19, 50%, 41%);
+    --bac-orange-700: hsl(19, 50%, 31%);
+    --bac-orange-800: hsl(19, 50%, 21%);
+    --bac-orange-850: hsl(19, 50%, 16%);
+    --bac-orange-900: hsl(19, 50%, 11%);
+    /* #endregion orange */
+
+    /* #region yellow */
+    --bac-yellow-core: #ffc107;
+    --bac-yellow-100: hsl(46, 70%, 90%);
+    --bac-yellow-150: hsl(46, 70%, 85%);
+    --bac-yellow-200: hsl(46, 70%, 80%);
+    --bac-yellow-300: hsl(46, 70%, 70%);
+    --bac-yellow-400: hsl(46, 70%, 60%);
+    --bac-yellow-500: hsl(46, 70%, 50%);
+    --bac-yellow-600: hsl(46, 70%, 40%);
+    --bac-yellow-700: hsl(46, 70%, 30%);
+    --bac-yellow-800: hsl(46, 70%, 20%);
+    --bac-yellow-850: hsl(46, 70%, 15%);
+    --bac-yellow-900: hsl(46, 70%, 10%);
+    /* #endregion yellow */
+
+    /* #region green */
+    --bac-green-core: #198754;
+    --bac-green-100: hsl(152, 38%, 95%);
+    --bac-green-150: hsl(152, 38%, 90%);
+    --bac-green-200: hsl(152, 38%, 85%);
+    --bac-green-300: hsl(152, 38%, 75%);
+    --bac-green-400: hsl(152, 38%, 65%);
+    --bac-green-500: hsl(152, 38%, 55%);
+    --bac-green-600: hsl(152, 38%, 45%);
+    --bac-green-700: hsl(152, 38%, 35%);
+    --bac-green-800: hsl(152, 38%, 25%);
+    --bac-green-850: hsl(152, 38%, 20%);
+    --bac-green-900: hsl(152, 38%, 15%);
+    /* #endregion green */
+
+    /* #region teal */
+    --bac-teal-core: #20c997;
+    --bac-teal-100: hsl(162, 60%, 89%);
+    --bac-teal-150: hsl(162, 60%, 84%);
+    --bac-teal-200: hsl(162, 60%, 79%);
+    --bac-teal-300: hsl(162, 60%, 69%);
+    --bac-teal-400: hsl(162, 60%, 59%);
+    --bac-teal-500: hsl(162, 60%, 49%);
+    --bac-teal-600: hsl(162, 60%, 39%);
+    --bac-teal-700: hsl(162, 60%, 29%);
+    --bac-teal-800: hsl(162, 60%, 19%);
+    --bac-teal-850: hsl(162, 60%, 14%);
+    --bac-teal-900: hsl(162, 60%, 9%);
+    /* #endregion teal */
+
+    /* #region cyan */
+    --bac-cyan-core: #0dcaf0;
+    --bac-cyan-100: hsl(191, 60%, 90%);
+    --bac-cyan-150: hsl(191, 60%, 85%);
+    --bac-cyan-200: hsl(191, 60%, 80%);
+    --bac-cyan-300: hsl(191, 60%, 70%);
+    --bac-cyan-400: hsl(191, 60%, 60%);
+    --bac-cyan-500: hsl(191, 60%, 50%);
+    --bac-cyan-600: hsl(191, 60%, 40%);
+    --bac-cyan-700: hsl(191, 60%, 30%);
+    --bac-cyan-800: hsl(191, 60%, 20%);
+    --bac-cyan-850: hsl(191, 60%, 15%);
+    --bac-cyan-900: hsl(191, 60%, 10%);
+    /* #endregion cyan */
+
+    /* #region gray */
+    --bac-gray-core: #adb5bd;
+    --bac-gray-100: hsl(210, 17%, 98%);
+    --bac-gray-150: hsl(210, 17%, 93%);
+    --bac-gray-200: hsl(210, 17%, 88%);
+    --bac-gray-300: hsl(210, 17%, 78%);
+    --bac-gray-400: hsl(210, 17%, 68%);
+    --bac-gray-500: hsl(210, 17%, 58%);
+    --bac-gray-600: hsl(210, 17%, 48%);
+    --bac-gray-700: hsl(210, 17%, 38%);
+    --bac-gray-800: hsl(210, 17%, 28%);
+    --bac-gray-850: hsl(210, 17%, 23%);
+    --bac-gray-900: hsl(210, 17%, 18%);
+    /* #endregion gray */
+}
+
+[data-bac-theme="blue"] {
+    --bac-theme-core: var(--bac-blue-core);
+    --bac-theme-100: var(--bac-blue-100);
+    --bac-theme-150: var(--bac-blue-150);
+    --bac-theme-200: var(--bac-blue-200);
+    --bac-theme-300: var(--bac-blue-300);
+    --bac-theme-400: var(--bac-blue-400);
+    --bac-theme-500: var(--bac-blue-500);
+    --bac-theme-600: var(--bac-blue-600);
+    --bac-theme-700: var(--bac-blue-700);
+    --bac-theme-800: var(--bac-blue-800);
+    --bac-theme-850: var(--bac-blue-850);
+    --bac-theme-900: var(--bac-blue-900);
+}
+
+[data-bac-theme="indigo"] {
+    --bac-theme-core: var(--bac-indigo-core);
+    --bac-theme-100: var(--bac-indigo-100);
+    --bac-theme-150: var(--bac-indigo-150);
+    --bac-theme-200: var(--bac-indigo-200);
+    --bac-theme-300: var(--bac-indigo-300);
+    --bac-theme-400: var(--bac-indigo-400);
+    --bac-theme-500: var(--bac-indigo-500);
+    --bac-theme-600: var(--bac-indigo-600);
+    --bac-theme-700: var(--bac-indigo-700);
+    --bac-theme-800: var(--bac-indigo-800);
+    --bac-theme-850: var(--bac-indigo-850);
+    --bac-theme-900: var(--bac-indigo-900);
+}
+
+[data-bac-theme="purple"] {
+    --bac-theme-core: var(--bac-purple-core);
+    --bac-theme-100: var(--bac-purple-100);
+    --bac-theme-150: var(--bac-purple-150);
+    --bac-theme-200: var(--bac-purple-200);
+    --bac-theme-300: var(--bac-purple-300);
+    --bac-theme-400: var(--bac-purple-400);
+    --bac-theme-500: var(--bac-purple-500);
+    --bac-theme-600: var(--bac-purple-600);
+    --bac-theme-700: var(--bac-purple-700);
+    --bac-theme-800: var(--bac-purple-800);
+    --bac-theme-850: var(--bac-purple-850);
+    --bac-theme-900: var(--bac-purple-900);
+}
+
+[data-bac-theme="pink"] {
+    --bac-theme-core: var(--bac-pink-core);
+    --bac-theme-100: var(--bac-pink-100);
+    --bac-theme-150: var(--bac-pink-150);
+    --bac-theme-200: var(--bac-pink-200);
+    --bac-theme-300: var(--bac-pink-300);
+    --bac-theme-400: var(--bac-pink-400);
+    --bac-theme-500: var(--bac-pink-500);
+    --bac-theme-600: var(--bac-pink-600);
+    --bac-theme-700: var(--bac-pink-700);
+    --bac-theme-800: var(--bac-pink-800);
+    --bac-theme-850: var(--bac-pink-850);
+    --bac-theme-900: var(--bac-pink-900);
+}
+
+[data-bac-theme="red"] {
+    --bac-theme-core: var(--bac-red-core);
+    --bac-theme-100: var(--bac-red-100);
+    --bac-theme-150: var(--bac-red-150);
+    --bac-theme-200: var(--bac-red-200);
+    --bac-theme-300: var(--bac-red-300);
+    --bac-theme-400: var(--bac-red-400);
+    --bac-theme-500: var(--bac-red-500);
+    --bac-theme-600: var(--bac-red-600);
+    --bac-theme-700: var(--bac-red-700);
+    --bac-theme-800: var(--bac-red-800);
+    --bac-theme-850: var(--bac-red-850);
+    --bac-theme-900: var(--bac-red-900);
+}
+
+[data-bac-theme="orange"] {
+    --bac-theme-core: var(--bac-orange-core);
+    --bac-theme-100: var(--bac-orange-100);
+    --bac-theme-150: var(--bac-orange-150);
+    --bac-theme-200: var(--bac-orange-200);
+    --bac-theme-300: var(--bac-orange-300);
+    --bac-theme-400: var(--bac-orange-400);
+    --bac-theme-500: var(--bac-orange-500);
+    --bac-theme-600: var(--bac-orange-600);
+    --bac-theme-700: var(--bac-orange-700);
+    --bac-theme-800: var(--bac-orange-800);
+    --bac-theme-850: var(--bac-orange-850);
+    --bac-theme-900: var(--bac-orange-900);
+}
+
+[data-bac-theme="yellow"] {
+    --bac-theme-core: var(--bac-yellow-core);
+    --bac-theme-100: var(--bac-yellow-100);
+    --bac-theme-150: var(--bac-yellow-150);
+    --bac-theme-200: var(--bac-yellow-200);
+    --bac-theme-300: var(--bac-yellow-300);
+    --bac-theme-400: var(--bac-yellow-400);
+    --bac-theme-500: var(--bac-yellow-500);
+    --bac-theme-600: var(--bac-yellow-600);
+    --bac-theme-700: var(--bac-yellow-700);
+    --bac-theme-800: var(--bac-yellow-800);
+    --bac-theme-850: var(--bac-yellow-850);
+    --bac-theme-900: var(--bac-yellow-900);
+}
+
+[data-bac-theme="green"] {
+    --bac-theme-core: #198754;
+    --bac-theme-100: hsl(152, 38%, 95%);
+    --bac-theme-150: hsl(152, 38%, 90%);
+    --bac-theme-200: hsl(152, 38%, 85%);
+    --bac-theme-300: hsl(152, 38%, 75%);
+    --bac-theme-400: hsl(152, 38%, 65%);
+    --bac-theme-500: hsl(152, 38%, 55%);
+    --bac-theme-600: hsl(152, 38%, 45%);
+    --bac-theme-700: hsl(152, 38%, 35%);
+    --bac-theme-800: hsl(152, 38%, 25%);
+    --bac-theme-850: hsl(152, 38%, 20%);
+    --bac-theme-900: hsl(152, 38%, 15%);
+}
+
+[data-bac-theme="teal"] {
+    --bac-theme-core: var(--bac-teal-core);
+    --bac-theme-100: var(--bac-teal-100);
+    --bac-theme-150: var(--bac-teal-150);
+    --bac-theme-200: var(--bac-teal-200);
+    --bac-theme-300: var(--bac-teal-300);
+    --bac-theme-400: var(--bac-teal-400);
+    --bac-theme-500: var(--bac-teal-500);
+    --bac-theme-600: var(--bac-teal-600);
+    --bac-theme-700: var(--bac-teal-700);
+    --bac-theme-800: var(--bac-teal-800);
+    --bac-theme-850: var(--bac-teal-850);
+    --bac-theme-900: var(--bac-teal-900);
+}
+
+[data-bac-theme="cyan"] {
+    --bac-theme-core: var(--bac-cyan-core);
+    --bac-theme-100: var(--bac-cyan-100);
+    --bac-theme-150: var(--bac-cyan-150);
+    --bac-theme-200: var(--bac-cyan-200);
+    --bac-theme-300: var(--bac-cyan-300);
+    --bac-theme-400: var(--bac-cyan-400);
+    --bac-theme-500: var(--bac-cyan-500);
+    --bac-theme-600: var(--bac-cyan-600);
+    --bac-theme-700: var(--bac-cyan-700);
+    --bac-theme-800: var(--bac-cyan-800);
+    --bac-theme-850: var(--bac-cyan-850);
+    --bac-theme-900: var(--bac-cyan-900);
+}
+
+[data-bac-theme="gray"] {
+    --bac-theme-core: var(--bac-gray-core);
+    --bac-theme-100: var(--bac-gray-100);
+    --bac-theme-150: var(--bac-gray-150);
+    --bac-theme-200: var(--bac-gray-200);
+    --bac-theme-300: var(--bac-gray-300);
+    --bac-theme-400: var(--bac-gray-400);
+    --bac-theme-500: var(--bac-gray-500);
+    --bac-theme-600: var(--bac-gray-600);
+    --bac-theme-700: var(--bac-gray-700);
+    --bac-theme-800: var(--bac-gray-800);
+    --bac-theme-850: var(--bac-gray-850);
+    --bac-theme-900: var(--bac-gray-900);
+}
