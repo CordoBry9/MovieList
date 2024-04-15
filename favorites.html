@@ -28,7 +28,7 @@
 
 </head>
 
-<body data-bac-theme="purple" onload="displayPopularMovies()">
+<body data-bac-theme="purple" onload="displayFavoriteMovies()">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-xxl">
@@ -60,11 +60,11 @@
     <main class="container-xxl py-3 mt-5">
         
         <div class="btn-group">
-            <a href="app.html" class="btn btn-primary">Popular Movies</a>
-            <a href="/favorites.html" class="btn btn-outline-primary">Favorite Movies</a>
+            <a href="/app.html" class="btn btn-outline-primary">Popular Movies</a>
+            <a href="/favorites.html" class="btn btn-primary">Favorite Movies</a>
         </div>
 
-        <h1 class="mt-3 text-center display-5">Popular Movies</h1>
+        <h1 class="mt-3 text-center display-5">Favorite Movies</h1>
         <div class="row g-3 row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4" id="movie-row">
 
         </div>
@@ -111,7 +111,7 @@
                     </p>
                 </div>
                 <div class="card-footer d-flex justify-content-between">
-                    <button type ="button" class="btn btn-outline-primary" onclick="addFavoriteMovie(this)">Add to Favorites</button>
+                    <button type ="button" class="btn btn-outline-primary" onclick="removeFavoriteMovie(this)">Unfavorite</button>
                     <button type = "button" class="btn btn-primary" onclick="showMovieDetails(this)">More Info</button>
                 </div> 
                 <!-- changed to data-bs-toggle and   -->
@@ -169,11 +169,6 @@
     <!-- Custom JS -->
 
     <script src="/js/site.js"></script>
-
-    <script>
-        let button = document.getElementById('btnSubmit');
-        button.addEventListener('click', displayPopularMovies);
-    </script>
 
 
 </body>
