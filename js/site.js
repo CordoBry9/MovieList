@@ -1,5 +1,5 @@
 const API_KEY = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNDcwN2U5NDA4OWJjZjgxNzM3NTQ1MzFjOTViOTIwNyIsInN1YiI6IjY2MTk4MDViZWE4NGM3MDE2NDU2OGYxNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.XsIAr1y09Dno9XyfUAODDYlP-nm4UL3WFw5_hyjNQEk'
-
+//API KEY would be here
 // return a list of an array of movie objecs or empty array
 
 async function getPopularMovies() {
